@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		78404A71205D9B510069B48D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A70205D9B510069B48D /* main.m */; };
+		78404A79205D9C3D0069B48D /* Furniture.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A78205D9C3D0069B48D /* Furniture.m */; };
+		78404A7D205DB39D0069B48D /* Chair.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A7C205DB39D0069B48D /* Chair.m */; };
+		78404A80205DB3B30069B48D /* Armchair.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A7F205DB3B30069B48D /* Armchair.m */; };
+		78404A83205DB3C20069B48D /* Bed.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A82205DB3C20069B48D /* Bed.m */; };
+		78404A86205DB3DC0069B48D /* Wardrobe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A85205DB3DC0069B48D /* Wardrobe.m */; };
+		78404A89205DB3EC0069B48D /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A88205DB3EC0069B48D /* Table.m */; };
+		78404A8C205DB4080069B48D /* BedsideTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A8B205DB4080069B48D /* BedsideTable.m */; };
+		78404A90205DB5BB0069B48D /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A8F205DB5BB0069B48D /* Material.m */; };
+		78404A93205DC61A0069B48D /* WallMirror.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A92205DC61A0069B48D /* WallMirror.m */; };
+		78404A97205DD61E0069B48D /* FurnitureSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404A96205DD61E0069B48D /* FurnitureSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,27 @@
 /* Begin PBXFileReference section */
 		78404A6D205D9B510069B48D /* Furniture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Furniture; sourceTree = BUILT_PRODUCTS_DIR; };
 		78404A70205D9B510069B48D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78404A77205D9C3D0069B48D /* Furniture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Furniture.h; sourceTree = "<group>"; };
+		78404A78205D9C3D0069B48D /* Furniture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Furniture.m; sourceTree = "<group>"; };
+		78404A7B205DB39D0069B48D /* Chair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chair.h; sourceTree = "<group>"; };
+		78404A7C205DB39D0069B48D /* Chair.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chair.m; sourceTree = "<group>"; };
+		78404A7E205DB3B30069B48D /* Armchair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Armchair.h; sourceTree = "<group>"; };
+		78404A7F205DB3B30069B48D /* Armchair.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Armchair.m; sourceTree = "<group>"; };
+		78404A81205DB3C20069B48D /* Bed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bed.h; sourceTree = "<group>"; };
+		78404A82205DB3C20069B48D /* Bed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bed.m; sourceTree = "<group>"; };
+		78404A84205DB3DC0069B48D /* Wardrobe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wardrobe.h; sourceTree = "<group>"; };
+		78404A85205DB3DC0069B48D /* Wardrobe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wardrobe.m; sourceTree = "<group>"; };
+		78404A87205DB3EC0069B48D /* Table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		78404A88205DB3EC0069B48D /* Table.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		78404A8A205DB4080069B48D /* BedsideTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BedsideTable.h; sourceTree = "<group>"; };
+		78404A8B205DB4080069B48D /* BedsideTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BedsideTable.m; sourceTree = "<group>"; };
+		78404A8E205DB5BB0069B48D /* Material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		78404A8F205DB5BB0069B48D /* Material.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
+		78404A91205DC61A0069B48D /* WallMirror.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallMirror.h; sourceTree = "<group>"; };
+		78404A92205DC61A0069B48D /* WallMirror.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WallMirror.m; sourceTree = "<group>"; };
+		78404A95205DD61E0069B48D /* FurnitureSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FurnitureSet.h; sourceTree = "<group>"; };
+		78404A96205DD61E0069B48D /* FurnitureSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FurnitureSet.m; sourceTree = "<group>"; };
+		78404A98205DF0490069B48D /* CommonProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProperties.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +89,53 @@
 			isa = PBXGroup;
 			children = (
 				78404A70205D9B510069B48D /* main.m */,
+				78404A98205DF0490069B48D /* CommonProperties.h */,
+				78404A94205DC6880069B48D /* Coating */,
+				78404A7A205DB1AE0069B48D /* WarehouseWithFurniture */,
+				78404A8D205DB4150069B48D /* AllFurniture */,
 			);
 			path = Furniture;
+			sourceTree = "<group>";
+		};
+		78404A7A205DB1AE0069B48D /* WarehouseWithFurniture */ = {
+			isa = PBXGroup;
+			children = (
+				78404A77205D9C3D0069B48D /* Furniture.h */,
+				78404A78205D9C3D0069B48D /* Furniture.m */,
+				78404A95205DD61E0069B48D /* FurnitureSet.h */,
+				78404A96205DD61E0069B48D /* FurnitureSet.m */,
+			);
+			path = WarehouseWithFurniture;
+			sourceTree = "<group>";
+		};
+		78404A8D205DB4150069B48D /* AllFurniture */ = {
+			isa = PBXGroup;
+			children = (
+				78404A7B205DB39D0069B48D /* Chair.h */,
+				78404A7C205DB39D0069B48D /* Chair.m */,
+				78404A7E205DB3B30069B48D /* Armchair.h */,
+				78404A7F205DB3B30069B48D /* Armchair.m */,
+				78404A81205DB3C20069B48D /* Bed.h */,
+				78404A82205DB3C20069B48D /* Bed.m */,
+				78404A84205DB3DC0069B48D /* Wardrobe.h */,
+				78404A85205DB3DC0069B48D /* Wardrobe.m */,
+				78404A87205DB3EC0069B48D /* Table.h */,
+				78404A88205DB3EC0069B48D /* Table.m */,
+				78404A8A205DB4080069B48D /* BedsideTable.h */,
+				78404A8B205DB4080069B48D /* BedsideTable.m */,
+				78404A91205DC61A0069B48D /* WallMirror.h */,
+				78404A92205DC61A0069B48D /* WallMirror.m */,
+			);
+			path = AllFurniture;
+			sourceTree = "<group>";
+		};
+		78404A94205DC6880069B48D /* Coating */ = {
+			isa = PBXGroup;
+			children = (
+				78404A8E205DB5BB0069B48D /* Material.h */,
+				78404A8F205DB5BB0069B48D /* Material.m */,
+			);
+			path = Coating;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +195,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78404A83205DB3C20069B48D /* Bed.m in Sources */,
+				78404A8C205DB4080069B48D /* BedsideTable.m in Sources */,
+				78404A93205DC61A0069B48D /* WallMirror.m in Sources */,
+				78404A80205DB3B30069B48D /* Armchair.m in Sources */,
+				78404A97205DD61E0069B48D /* FurnitureSet.m in Sources */,
+				78404A7D205DB39D0069B48D /* Chair.m in Sources */,
+				78404A86205DB3DC0069B48D /* Wardrobe.m in Sources */,
+				78404A79205D9C3D0069B48D /* Furniture.m in Sources */,
+				78404A90205DB5BB0069B48D /* Material.m in Sources */,
 				78404A71205D9B510069B48D /* main.m in Sources */,
+				78404A89205DB3EC0069B48D /* Table.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
