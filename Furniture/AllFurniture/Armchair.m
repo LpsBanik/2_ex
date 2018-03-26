@@ -14,22 +14,26 @@
 
 @end
 
-
 @implementation Armchair
 
-- (instancetype)init {
-    if (self = [super init]) {
-        self.stuffingFabric =_stuffingFabric;
+- (instancetype)initWithName:(NSString *)name andColor:(NSString *)color andWeight:(NSInteger)weight andSize:(NSInteger)size andPrice:(NSInteger)price {
+    if (self = [super initWithWeight:weight andSize:size andPrice:price]) {
+        Material *material = [[Material alloc] initWithName:name andColor:color];
+        self.material = material;
         self.stuffingFabric = @"Polyester";
-        
-    //    self.material.name = @"Leather";
-    //    self.material.color = @"Black";
     }
     return self;
 }
 
+- (NSString *)description {
+    if (self.material == nil) {
+        return @"A furniture without material";
+    }
+    return [NSString stringWithFormat:@"Armchair - > (name of material %@ and color %@) - \nweight = %ld,\nsize = %ld,\nprice = %ld,\nstuffing fabric = %@", self.material.name, self.material.color, self.weight, self.size, self.price, self.stuffingFabric];
+}
+
 -(NSString *) additionalPropertiesOfFurniture {
-    return @" Stuffing fabric = Polyester";
+    return @"Stuffing fabric = Polyester";
 }
 
 @end

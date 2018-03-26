@@ -24,30 +24,28 @@ int main(int argc, const char * argv[]) {
         
         FurnitureSet *furnitureSet = [[FurnitureSet alloc] init];
         Chair *chair = [[Chair alloc] initWithName:@"Wood" andColor:@"Black" andWeight:2 andSize:5 andPrice:10];
-        Armchair *armchair = [Armchair new];
+        Armchair *armchair = [[Armchair alloc] initWithName:@"Steel" andColor:@"Gray" andWeight:30 andSize:10 andPrice:50];
         Bed *bed = [Bed new];
         Wardrobe *wardrobe= [Wardrobe new];
         Table *table = [Table new];
         BedsideTable *bedsideTable = [BedsideTable new];
-        WallMirror *wallMirror = [WallMirror new];
+        WallMirror *wallMirror = [[WallMirror alloc] initWithName:@"Glass" andColor:@"Red" andWeight:10 andSize:20 andPrice:30];
        
         NSObject *fake = [NSObject new];
 
-        NSArray *furnitureSet1 = [NSArray arrayWithObjects:fake, chair, nil];
+        NSArray *furnitureSet1 = [NSArray arrayWithObjects:fake, chair, armchair, wallMirror, nil];
         
         for (id <CommonProperties> furniture in furnitureSet1) {
             
             if ([furniture conformsToProtocol:@protocol(CommonProperties)]) {
                 
-                NSLog(@"Furniture  %@ - (name of material %@ and color %@) - \nweight = %ld,\nsize = %ld,\nprice = %ld ", furniture, furniture.material.name, furniture.material.color, furniture.weight, furniture.size, furniture.price);
-             
+                NSLog(@"\nFurniture  %@  \n", furniture);
                
                 if ([furniture respondsToSelector: @selector(additionalPropertiesOfFurniture)]) {
                     NSLog(@"\nAdditional properties of furniture - %@", [furniture additionalPropertiesOfFurniture]);
                 }
-                
             } else {
-                NSLog(@"Fake ! ! ! !");
+                NSLog(@"Fake ! ! ! ! FURNITURE ! ! ! ! !");
             }
           
         }

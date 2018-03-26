@@ -14,10 +14,6 @@
 
 @property (nonatomic, readonly) NSInteger numberOfLegs;
 
-
-//- (instancetype)initWithName:(NSString *)name andColor:(NSString *)color;
-//- (instancetype)initWithWeight:(NSInteger)weight andSize:(NSInteger)size andPrice:(NSInteger)price;
-
 -(instancetype) initWithName:(NSString *)name andColor:(NSString *)color andWeight:(NSInteger)weight andSize:(NSInteger)size andPrice:(NSInteger)price;
 
 @end

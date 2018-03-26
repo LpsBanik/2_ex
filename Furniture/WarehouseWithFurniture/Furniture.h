@@ -17,7 +17,7 @@
 @property (nonatomic, readonly) NSInteger price;
 @property (nonatomic, readwrite) Material *material;
 
-- (instancetype)initWithWeight: (NSInteger )name andSize: (NSInteger )color andPrice: (NSInteger )price;
+- (instancetype)initWithWeight: (NSInteger )weight andSize: (NSInteger )size andPrice: (NSInteger )price;
 
 
 @end
